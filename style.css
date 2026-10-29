@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0f12;
+    color: #ffffff;
+    margin: 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 700px;
+    width: 90%;
+    text-align: center;
+    background: #13191f;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+    border: 1px solid #1f2a36;
+}
+h1 {
+    color: #00adb5;
+    font-size: 2.8rem;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.subtitle {
+    color: #8b9bb4;
+    font-size: 1.1rem;
+    margin-bottom: 35px;
+    font-style: italic;
+}
+.facts-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+.fact-card {
+    background: #1b232c;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #00adb5;
+}
+.fact-card h3 {
+    margin: 0 0 8px 0;
+    color: #00adb5;
+    font-size: 1.2rem;
+}
+.fact-card p {
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.team-section {
+    margin-top: 40px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+.team-section h2 {
+    color: #00adb5;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.member-card {
+    background: #1b232c;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #253241;
+}
+.member-card h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.member-card .role {
+    margin: 2px 0 10px 0;
+    color: #00adb5;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+}
+.member-card p {
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+.video-section {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.video-section h2 {
+    color: #00adb5;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid #253241;
+    background: #000;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.warning-text {
+    color: #ff4a4a;
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.cta-btn {
+    display: inline-block;
+    padding: 14px 35px;
+    background-color: #00adb5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.cta-btn:hover {
+    background-color: #007c82;
+    box-shadow: 0 0 15px rgba(0, 173, 181, 0.4);
+}
